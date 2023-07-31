@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+#app{
+    height: 100vh;
+    display: grid;
+    padding: 16rem 10rem;
+}
+
+.universe, .exploration{
+    max-width: 60%;
+}
+
+header{
+    padding: 4.0rem 7.2rem;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    gap: 5.0rem;
+
+    
+    font-family: Roboto;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 2.0rem; 
+}
+
+nav a{
+    text-decoration: none;
+    color:#C4C4CC;
+}
+
+h1{
+    color: #E1E1E6;
+    font-family: Roboto;
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 6rem; 
+}
+
+p{
+    margin-top: 1.6rem;
+    color: #E1E1E6;
+    font-family: Roboto;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.0rem; /* 28.8px */
+}
+
+.home{
+    display: grid;
+    margin: auto;
+    justify-items: center;
+    gap: 2.4rem;
+}
+
+.home button{
+    background: transparent;
+    padding: 12px 32px;
+    border-radius: 5px;
+    border: 2px solid #FFF;
+
+    width: 20rem;
+
+    color:  #FFF;
+    font-family: Roboto;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+
+    cursor: pointer;
+}
+
+.focus{
+    color: #fff;
+    font-weight: 700;
+}
+
+.home-bg{
+    background: url(./assents/home-bg.png) 50% / cover no-repeat;
+}
+
+.universe-bg{
+    background: url(./assents/universe-bg.png) 50% / cover no-repeat;;
+}
+
+.exploration-bg{
+    background: url(./assents/exploration-bg.png) 50% / cover no-repeat;;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+body{
+    font-size: 1.6rem;
+}
